@@ -1,27 +1,23 @@
 # ATU Network Technologies Project 2025
 
+![Status](https://img.shields.io/badge/status-Completed-brightgreen)
+
 ## Overview
 
 This repository contains my Cisco Packet Tracer project completed as part of the **Network Technologies module** at Atlantic Technological University (ATU).
 
-The project involves designing and implementing a multi-router network with routing, NAT, DNS, and web services. The network simulates real-world communication between multiple LANs and public-facing servers.
-
+> A simulated enterprise network built in Cisco Packet Tracer featuring multi-router routing, NAT, DNS, and web services. The network simulates real-world communication between multiple LANs and public-facing servers.
 
 ---
 
-## Project Requirements
+## Key Features
 
-- Build the network topology as specified
-- Label all devices with:
-  - Device name
-  - Port/interface
-  - IP address (for PCs and routers)
-- Apply appropriate subnetting
-- Configure public IP addressing for servers
-- Implement DNS services
-- Configure NAT (Network Address Translation)
-- Enable routing between all networks
-- Ensure all PCs can access all web servers
+- Multi-router topology with interconnected LANs  
+- RIP configured on all routers for dynamic routing  
+- NAT implemented to allow internal devices to access external servers  
+- DNS server configured to resolve domain names (e.g. websites)  
+- Multiple web servers with customised `index.html` pages  
+- Full connectivity: all PCs can successfully access all web servers  
 
 ---
 
@@ -45,14 +41,7 @@ The project involves designing and implementing a multi-router network with rout
 
 ### Alternative View / Detailed Layout
 ![Network Topology Detailed](topology1.png)
-*Figure 2: Detailed view of router interconnections*
-
----
-
-## Project Structure
-
-- `robertnolan.pka` file – Main Cisco Packet Tracer project file  
-- `README.md` – Project documentation  
+*Figure 2: Router-level topology view*
 
 ---
 
@@ -60,21 +49,10 @@ The project involves designing and implementing a multi-router network with rout
 
 1. Open Cisco Packet Tracer  
 2. Load the `robertnolan.pka` file  
-3. Switch to **Simulation Mode** to observe traffic flow  
+3. Use **Simulation Mode** to observe packet flow  
 4. Test connectivity:
    - Use `ping` between devices  
-   - Access web servers via browser using domain names  
-
----
-
-## Key Features
-
-- Multi-router topology with interconnected LANs  
-- RIP configured on all routers for dynamic routing  
-- NAT implemented to allow internal devices to access external servers  
-- DNS server configured to resolve domain names (e.g. websites)  
-- Multiple web servers with customised `index.html` pages  
-- Full connectivity: all PCs can successfully access all web servers  
+   - Access web servers via browser using configured domain names  
 
 ---
 
@@ -84,6 +62,40 @@ The project involves designing and implementing a multi-router network with rout
 - Confirmed DNS resolution for all configured domains  
 - Tested NAT functionality for external access  
 - Accessed each web server via browser to confirm correct page display  
+
+---
+
+## Skills Demonstrated
+
+- Network design and topology planning  
+- IP addressing and subnetting  
+- Dynamic routing configuration (RIP)  
+- NAT implementation (static and dynamic)  
+- DNS and web server configuration  
+- Network troubleshooting and validation  
+
+---
+
+## Project Requirements
+
+- Build the network topology as specified
+- Label all devices with:
+  - Device name
+  - Port/interface
+  - IP address (for PCs and routers)
+- Apply appropriate subnetting
+- Configure public IP addressing for servers
+- Implement DNS services
+- Configure NAT (Network Address Translation)
+- Enable routing between all networks
+- Ensure all PCs can access all web servers
+
+---
+
+## Project Structure
+
+- `robertnolan.pka` file – Main Cisco Packet Tracer project file  
+- `README.md` – Project documentation  
 
 ---
 
@@ -106,5 +118,5 @@ Through this project, I developed practical skills in:
 
 ---
 
-## Notes
+## Disclaimer
 This project was created for academic purposes as part of coursework.
